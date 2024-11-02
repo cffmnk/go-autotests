@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Yandex-Practicum/go-autotests/internal/random"
+	"github.com/cffmnk/go-autotests/internal/random"
 	"github.com/goccy/go-yaml"
 	yamlast "github.com/goccy/go-yaml/ast"
 	yamlparser "github.com/goccy/go-yaml/parser"

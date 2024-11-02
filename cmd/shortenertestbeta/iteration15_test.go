@@ -12,7 +12,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Yandex-Practicum/go-autotests/internal/fork"
+	"github.com/cffmnk/go-autotests/internal/fork"
 	"github.com/go-resty/resty/v2"
 	"github.com/jackc/pgx"
 	"github.com/jackc/pgx/stdlib"

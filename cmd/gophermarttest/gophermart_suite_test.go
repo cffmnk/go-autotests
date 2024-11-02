@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/Yandex-Practicum/go-autotests/internal/fork"
+	"github.com/cffmnk/go-autotests/internal/fork"
 )
 
 // GophermartSuite is a suite of autotests

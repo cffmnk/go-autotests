@@ -7,7 +7,7 @@
 ### Трек «Сервис сокращения URL»
 
 1. Скомпилируйте ваш сервер в папке `cmd/shortener` командой `go build -o shortener *.go`.
-2. Скачайте [бинарный файл с автотестами](https://github.com/Yandex-Practicum/go-autotests/releases/latest) для вашей ОС — например, `shortenertest-darwin-arm64` для MacOS на процессоре Apple Silicon.
+2. Скачайте [бинарный файл с автотестами](https://github.com/cffmnk/go-autotests/releases/latest) для вашей ОС — например, `shortenertest-darwin-arm64` для MacOS на процессоре Apple Silicon.
 3. Разместите бинарный файл так, чтобы он был доступен для запуска из командной строки, — пропишите путь в переменную `$PATH`.
 4. Ознакомьтесь с параметрами запуска автотестов в файле `.github/workflows/shortenertest.yml` вашего репозитория. Автотесты для разных инкрементов требуют различных аргументов для запуска.
 
@@ -20,7 +20,7 @@ shortenertest -test.v -test.run=^TestIteration1$ -binary-path=cmd/shortener/shor
 ### Трек «Сервис сбора метрик и алертинга»
 
 1. Скомпилируйте ваши сервер и агент в папках `cmd/server` и `cmd/agent` командами `go build -o server *.go` и `go build -o agent *.go` соответственно.
-2. Скачайте [бинарный файл с автотестами](https://github.com/Yandex-Practicum/go-autotests/releases/latest) для вашей ОС — например, `metricstest-darwin-arm64` для MacOS на процессоре Apple Silicon.
+2. Скачайте [бинарный файл с автотестами](https://github.com/cffmnk/go-autotests/releases/latest) для вашей ОС — например, `metricstest-darwin-arm64` для MacOS на процессоре Apple Silicon.
 3. Разместите бинарный файл так, чтобы он был доступен для запуска из командной строки, — пропишите путь в переменную `$PATH`.
 4. Ознакомьтесь с параметрами запуска автотестов в файле `.github/workflows/metricstest.yml` вашего репозитория. Автотесты для разных инкрементов требуют различных аргументов для запуска.
 
@@ -91,7 +91,7 @@ jobs:
         uses: robinraju/release-downloader@v1
         with:
         # для заготовленных шагов иногда требуется указать параметры, как здесь
-          repository: Yandex-Practicum/go-autotests
+          repository: cffmnk/go-autotests
           latest: true
           fileName: statictest
           out-file-path: .tools

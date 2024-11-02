@@ -18,7 +18,7 @@ import (
 	"github.com/stretchr/testify/suite"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/Yandex-Practicum/go-autotests/internal/fork"
+	"github.com/cffmnk/go-autotests/internal/fork"
 )
 
 // Iteration14Suite является сьютом с тестами и состоянием для инкремента

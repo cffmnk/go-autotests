@@ -18,7 +18,7 @@ import (
 
 	"golang.org/x/tools/go/ast/astutil"
 
-	"github.com/Yandex-Practicum/go-autotests/internal/random"
+	"github.com/cffmnk/go-autotests/internal/random"
 )
 
 // generateTestURL возвращает валидный псевдослучайный URL

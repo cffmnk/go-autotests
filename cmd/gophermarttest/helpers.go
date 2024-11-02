@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/Yandex-Practicum/go-autotests/internal/random"
+	"github.com/cffmnk/go-autotests/internal/random"
 )
 
 // dumpRequest is a shorthand to httputil.DumpRequest

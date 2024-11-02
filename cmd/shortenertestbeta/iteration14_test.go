@@ -13,7 +13,7 @@ import (
 	"github.com/go-resty/resty/v2"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/Yandex-Practicum/go-autotests/internal/fork"
+	"github.com/cffmnk/go-autotests/internal/fork"
 )
 
 // Iteration14Suite является сьютом с тестами и состоянием для инкремента

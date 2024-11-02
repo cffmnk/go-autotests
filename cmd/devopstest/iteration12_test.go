@@ -20,7 +20,7 @@ import (
 	"github.com/jackc/pgx/stdlib"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/Yandex-Practicum/go-autotests/internal/fork"
+	"github.com/cffmnk/go-autotests/internal/fork"
 )
 
 // Iteration12Suite is a suite of autotests

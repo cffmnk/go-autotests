@@ -9,7 +9,7 @@ import (
 
 	"github.com/go-resty/resty/v2"
 
-	"github.com/Yandex-Practicum/go-autotests/internal/random"
+	"github.com/cffmnk/go-autotests/internal/random"
 )
 
 var (
